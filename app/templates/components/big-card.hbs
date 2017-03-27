@@ -8,17 +8,17 @@
         after-save=(action "toggleEdit")
         cancel=(action "toggleEdit")}}
     {{else}}
-      <h1 class="Big-card__title
+      <h1 data-test-title class="Big-card__title
                  lh-title f3 pa0 ma0 mb2">
         {{card.title}}
       </h1>
-      <p class="Big-card__description
+      <p data-test-description class="Big-card__description
         f5 measure lh-copy mb3">
         {{card.description}}
       </p>
 
       <div>
-        <a href="#"
+        <a data-test-edit href="#"
           class="Big-card__edit-link link dark-blue"
           {{action "toggleEdit"}}>
             Edit

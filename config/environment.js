@@ -44,7 +44,7 @@ module.exports = function(environment) {
 
     ENV.APP.rootElement = '#ember-testing';
 
-    ENV['ember-cli-mirage'] = { enabled: false };
+    // ENV['ember-cli-mirage'] = { enabled: false };
   }
 
   if (environment === 'production') {

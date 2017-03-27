@@ -1,5 +1,11 @@
 export default function() {
 
+  this.namespace = 'api';
+
+  this.resource('lists');
+  this.resource('cards');
+  this.resource('users');
+
   // These comments are here to help you get started. Feel free to delete them.
 
   /*
